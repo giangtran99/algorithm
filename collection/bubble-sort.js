@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
 var swap_1 = require("./swap");
-var array = [2, 54, 1, 87, 31];
+// let array = [2, 54, 1, 87, 31]
 function BubbleSort(array) {
     for (var i = array.length; i > 0; i--) {
         for (var j = 0; j <= i; j++) {
@@ -12,4 +12,5 @@ function BubbleSort(array) {
     }
     return array;
 }
-console.log(BubbleSort(array));
+// console.log(BubbleSort(array))
+exports["default"] = BubbleSort;

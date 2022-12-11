@@ -1,7 +1,7 @@
 import swap from './swap'
 
 
-let array = [2, 54, 1, 87, 31]
+// let array = [2, 54, 1, 87, 31]
 
 
 
@@ -17,4 +17,6 @@ function BubbleSort(array) {
 }
 
 
-console.log(BubbleSort(array))
+// console.log(BubbleSort(array))
+
+export default BubbleSort
